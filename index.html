@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+    <title>ValeNota</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-div">
+            <h1>ValeNota</h1>
+            <h3>Prof</h3>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-div-master">
+            <div class="main-div">
+                <button class="main-div-btn" id="btn">
+                    <i class="fa-solid fa-plus fa-2xl" style="color: #ffffff;"></i>
+                </button>
+                <button class="main-div-btn" id="btn-edit">
+                    <i class="fa-solid fa-pen-to-square fa-2xl" style="color: #ffffff;"></i>
+                </button>
+                <button class="main-div-btn" id="btn-1">
+                    <i class="fa-brands fa-pix fa-2xl" style="color: #ffffff;"></i>
+                </button>
+            </div>
+            <input>
+            <div id="container">
+                <div class="main-div-turmas">
+                    <button class="btn-turma" id="btn-2" onclick="abrirTurma1()">TI-1</button>
+                    <button class="btn-turma" id="btn-3" onclick="abrirTurma2()">TI-2</button>
+                    <button class="btn-turma" id="btn-4" onclick="abrirTurma3()">TI-3</button>
+                    <button class="btn-turma" id="btn-5" onclick="abrirTurma4()">TI-4</button>
+                </div>
+            </div>
+            <div id="container-t1">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirTurma1()">TI-1</button>
+                    <button class="btn-turma" id="btn-3" onclick="abrirAluno1()">Amanda Haubert</button>
+                    <button class="btn-turma" id="btn-4" onclick="abrirAluno2()">Gustavo Gebhardt</button>
+                    <button class="btn-turma" id="btn-5" onclick="abrirAluno3()">João Tavares</button>
+                </div>
+            </div>
+            <div id="container-t2">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirTurma2()">TI-2</button>
+                    <button class="btn-turma" id="btn-3">x</button>
+                    <button class="btn-turma" id="btn-4">x</button>
+                    <button class="btn-turma" id="btn-5">x</button>
+                </div>
+            </div>
+            <div id="container-t3">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirTurma3()">TI-3</button>
+                    <button class="btn-turma" id="btn-3">x</button>
+                    <button class="btn-turma" id="btn-4">x</button>
+                    <button class="btn-turma" id="btn-5">x</button>
+                </div>
+            </div>
+            <div id="container-t4">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirTurma4()">TI-4</button>
+                    <button class="btn-turma" id="btn-3">x</button>
+                    <button class="btn-turma" id="btn-4">x</button>
+                    <button class="btn-turma" id="btn-5">x</button>
+                </div>
+            </div>
+            <div id="container-a1">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirAluno1()">Amanda Haubert</button>
+                    <button class="btn-turma-aluno" id="btn-3"> + R$ 20,00 <br> - R$ 10,00 <br> - R$ 5,00 <br> -------------- <br> R$ 5,00</button>
+                </div>
+            </div>
+            <div id="container-a2">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirAluno2()">Gustavo Gebhardt</button>
+                    <button class="btn-turma-aluno" id="btn-3"> + R$ 10,00 <br> - R$ 5,00 <br> - R$ 5,00 <br> -------------- <br> R$ 0,00</button>
+                </div>
+            </div>
+            <div id="container-a3">
+                <div class="main-div-turmas">
+                    <button class="btn-turma-fechar" id="btn-2" onclick="abrirAluno3()">João Tavares</button>
+                    <button class="btn-turma-aluno" id="btn-3"> + R$ 20,00 <br> + R$ 10,00 <br> - R$ 5,00 <br> -------------- <br> R$ 25,00</button>
+                </div>
+            </div>
+            <div id="container-edit">
+                <div class="main-div-turmas-edit">
+                    <button class="btn-turma" id="" onclick="">TI-1</button>
+                    <button class="btn-turma" id="" onclick="">TI-2</button>
+                    <button class="btn-turma" id="" onclick="">TI-3</button>
+                    <button class="btn-turma" id="" onclick="">TI-4</button>
+                    <button class="btn-turma-new" id="" onclick="">NEW</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        
+    </footer>
+    
+</body>
+</html>
